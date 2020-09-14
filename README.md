@@ -1,6 +1,6 @@
 # Safra Collection
 
-PWA para consumo dos serviços da aplicação da [API](https://github.com/andrevinicius201/HackaT6) do safra collection.
+APK para consumo dos serviços da aplicação da [API](https://github.com/andrevinicius201/HackaT6) do safra collection.
 
 Desenvolvido em caráter emergencial pois a integração do [Android Studio](https://github.com/andrevinicius201/HackaT6Application) não iria dar tempo.
 

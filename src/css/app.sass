@@ -1,0 +1,193 @@
+// app global css in Sass form
+
+$safra-blue: #374281;
+$safra-gold: #d3b741;
+
+h1, h2, h3, h4, h5, h6
+    font-size: 1.5em
+    margin: 0
+
+p
+    margin: 0
+
+
+.login-page
+    background: $safra-blue;
+
+.page
+    padding: 5em 1.5em 1.5em;
+
+    .welcome-banner
+        margin: -1.5em -1.5em 2em;
+        background: #5767c0;
+        color: white;
+        padding: 0.3em 1.5em 0.2em;
+        border-radius: 0 0 50px 50px;
+        position: fixed
+        width: 100%
+        top: 70px
+
+        .page-title-balance
+            align-items: center;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+
+            p
+                font-size: 0.9em;
+                opacity: 0.8;
+                display: inline;
+            
+            span
+                color: #fcd220;
+                margin: 1px 0 3px 6px;
+                padding: 3px 7px;
+                letter-spacing: 1px;
+                border-radius: 7px;
+                font-size: 1.5em;
+                font-weight: bold;
+            
+.transactions-section
+    margin-top: 1.5em;
+
+    h1, h2, h3, h4, h5, h6
+        font-size: 1.2em;
+
+    .transactions-list
+        margin: 16px 0 0
+
+        & > div
+            display: flex;
+            justify-content: space-between;
+            position: relative
+            border-left: 1px solid #fcd531
+            margin: 0 0 0 5px
+
+            i
+                width: 15px
+                height: 15px
+                background: #fcd531
+                position: absolute
+                border-radius: 50%
+                left: -8px
+
+            & > div
+                margin: -3px 0 15px 20px
+
+            .transaction-title
+                font-weight: bold
+
+            .transaction-date
+                font-size: 0.9em
+
+            .transaction-value
+                font-size: 1.2em
+
+
+.album
+    margin-top: 10px
+
+    .title
+        background: #374281;
+        display: inline-block;
+        color: white;
+        padding: 4px 20px 4px 15px;
+        border-radius: 0 20px 0 0;
+        font-size: 14px;
+
+    .completed
+        background: #f4e989
+        position: absolute
+        left: 0;
+        right: 0;
+        margin: 0 1.5em
+        text-align: center
+        padding: 10px 0 15px
+
+        h1
+            margin: -33px 0 -30px
+            font-size: 18px
+
+        
+
+    canvas 
+        background-color: white;
+        width: 100%
+
+
+.page-buy
+    .buy-sticker
+        border-top: 1px solid #ccc
+        margin: 15px 0 0 0
+        padding: 10px 0 0 0
+
+        .price
+            background: #73AAD7
+            border-radius: 7px
+            border: 1px solid darken(#73AAD7, 10%)
+            padding: 0.6em 1em
+            font-weight: bold
+
+            span
+                font-weight: normal
+
+        .total
+            display: flex
+            justify-content: flex-end
+            margin: 20px 0
+            
+            div
+                text-align: right
+
+            small
+                font-size: 13px
+            
+            p
+                font-size: 2.5em
+                display: inline
+
+            .reset
+                display: flex
+                align-items: flex-end
+                margin: 0 0 15px 10px
+                font-size: 1.5em
+                color: #aaa
+                cursor: pointer
+
+                &:active
+                    color: #000
+        
+        .alert
+            background: #fbe7e7
+            border: 1px solid darken(#fbe7e7, 10%)
+            text-align: center;
+            padding: 5px 10px
+            border-radius: 7px
+            margin: -20px 0 20px
+            color: darken(#fbe7e7, 60%)
+
+
+        .add-sticker-grid
+            display: grid
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+            margin-bottom: 20px
+
+    .success
+        background: #e1f5e1
+        border: 1px solid darken(#e1f5e1, 10%)
+        border-radius: 7px
+        text-align: center
+        padding: 10px
+        color: darken(#e1f5e1, 70%)
+        margin: 20px 0
+
+        .q-icon
+            font-size: 7em
+            color: darken(#e1f5e1, 60%)
+            margin: 0
+        
+        h1
+            margin: -26px 0 -12px
+            font-size: 1.2em
+
